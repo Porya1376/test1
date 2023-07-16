@@ -1,0 +1,49 @@
+body {
+    background-color: #1d2a35;
+}
+
+.link-boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+h2 {
+    color: #fff;
+    text-align: left;
+
+}
+
+.side-bar a:hover {
+    color: #fff;
+    text-align: left;
+
+}
+.box {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.box h5 {
+    font-weight: 700;
+    color: #fff;
+}
+
+
+.box li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link-boxes .box:last-child h5 a{
+    color: rgb(255, 255, 255);
+}
